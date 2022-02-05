@@ -1,4 +1,12 @@
-.Container {
-  margin: 70px auto;
-  max-width: 800px;
+.App {
+  margin: 20px auto 10px;
+  max-width: 700px;
+  background-size: cover;
+  border: 5px solid #7b6fef;
+}
+
+li {
+  font-size: 16px;
+  line-height: 1;
+  list-style: none;
 }
