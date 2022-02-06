@@ -20,44 +20,54 @@
     margin-right: 5px;
     border-radius: 4px;
   }
-  
-  .Weather .city-info {
-    text-align: center;
+
+
+  .Weather li {
+    font-size: 14px;
+    color: #b69d8a;
   }
   
   .Weather .City {
+    color: #6c8990;
+    font-size: 20px;;
+    font-weight: bolder;
     margin-bottom: 10px;
   }
-  
-  .Weather .temperature {
-    font-size: 60px;
-  }
-  
-  .Weather .units {
-    position: relative;
-    top: -30px;
-    font-size: 16px;
-  }
-  
-  .Weather .more-info {
-    color: #6c8990;
-    margin-top: 32px;
-    text-align: center;
-  }
-  
+
   .Weather .Date {
-    font-size: 20px;
-    font-weight: bolder;
+    font-size: 18px;
     color: #6c8990;
   }
   
   .Weather .WeatherDescription {
-    font-size: 20px;
+    font-size: 18px;
     color: #6c8990;
     text-transform: capitalize;
   }
   
+  .Weather .temperature {
+    color: #6c8990;
+    font-size: 60px;
+  }
+  
+  .Weather .units {
+    color: #6c8990;
+    position: relative;
+    top: -30px;
+    font-size: 16px;
+  }
+
+  .Weather a {
+    color: #b69d8a;
+    text-decoration: none;
+  }
+
+  .Weather a:hover {
+    color: #ca8e6b;
+  }
+  
   .Weather canvas {
+    padding: 10px;
     text-align: center;
     display: block;
     filter: drop-shadow(2px 2px 2px #b69d8a);

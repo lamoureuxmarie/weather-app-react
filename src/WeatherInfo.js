@@ -42,7 +42,7 @@ export default function WeatherInfo(props) {
                       </span>
                    </div>
          </div>          
-         <div className="col-3">
+         <div className="weatherDetails col-3">
          <WeatherDetails
                          feels={props.data.feels}
                          humidity={props.data.humidity}

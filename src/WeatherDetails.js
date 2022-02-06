@@ -6,18 +6,18 @@ export default function WeatherDetail(props) {
     fahrenheit: `°F`,
   };
 
+
   return (
-    <div className="col-4">
-      <div className="weather-detail">
+ 
+      <div className="weatherDetail">
         <ul>
-          <li>
-            Feels like: {props.feels}
-            {unitMapping[props.unit]}
+          <li className="mt-4 mb-1">
+            Feels like: {props.feels}{unitMapping[props.unit]}
           </li>
-          <li>Humidity: {props.humidity}%</li>
+          <li className="mb-1">Humidity: {props.humidity}%</li>
           <li>Wind: {props.wind} km/h</li>
         </ul>
       </div>
-    </div>
+
   );
 }
