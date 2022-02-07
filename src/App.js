@@ -25,6 +25,7 @@ function App() {
     <StyledApp>
     
     <button className="Toggle" onClick={() => themeToggler()}><Toggle /></button>
+    <h1 className="title">Weather App</h1>
       <Weather defaultCity="Berlin" />
    
     </StyledApp>

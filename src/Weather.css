@@ -1,82 +1,97 @@
 .Weather {
-    padding: 30px;
+    padding: 5px 5px 30px 30px;
   }
   
   .Weather .search-area {
     display: block;
     text-align: center;
-    margin-top: 30px;
+    margin-top: 15px;
   }
   
   .Weather .search-input {
-    border: 1px solid #6c8990;
+    border: 1px solid #d1908f;
     border-radius: 4px;
     width: 50%;
   }
   
   .Weather button {
-    border: 3px solid #6c8990;
     margin-left: 5px;
     margin-right: 5px;
     border-radius: 4px;
   }
 
+  .Weather .search-button {
+    background-color: #d1908f;
+    color: #fff;
+    border: 1px solid #d1908f;
+  }
+
+  .Weather .search-button:hover {
+    background-color: #c57e7d;
+    border: 1px solid #c57e7d;
+  }
+
+  .Weather .current-location-button {
+    background-color: #835d62;
+    color: #fff;
+    border: 1px solid #835d62;
+  }
+
+  .Weather .current-location-button:hover {
+    background-color: #744f54;
+    border: 1px solid #744f54;
+  }
 
   .Weather li {
-    font-size: 14px;
-    color: #b69d8a;
+    font-size: 15px;
   }
   
   .Weather .City {
-    color: #6c8990;
-    font-size: 20px;;
     font-weight: bolder;
+    text-transform: uppercase;
+    font-size: 20px;
     margin-bottom: 10px;
   }
 
   .Weather .Date {
-    font-size: 18px;
-    color: #6c8990;
+    font-size: 15px;
   }
   
   .Weather .WeatherDescription {
-    font-size: 18px;
-    color: #6c8990;
+    font-size: 15px;
     text-transform: capitalize;
   }
   
   .Weather .temperature {
-    color: #6c8990;
     font-size: 60px;
   }
   
   .Weather .units {
-    color: #6c8990;
     position: relative;
     top: -30px;
     font-size: 16px;
   }
 
   .Weather a {
-    color: #b69d8a;
+    color: #d1908f;
     text-decoration: none;
   }
 
   .Weather a:hover {
-    color: #ca8e6b;
+    color: #c57e7d;
   }
   
   .Weather canvas {
     padding: 10px;
     text-align: center;
     display: block;
-    filter: drop-shadow(2px 2px 2px #b69d8a);
+    filter: drop-shadow(2px 2px 2px #d1908f);
   }
 
   .Loader {
     margin-top: 5px;
     margin-left: 10px;
-    color: #b69d8a;
+    color: #f0c9c4;
     font-size: 18px;
     
   }
