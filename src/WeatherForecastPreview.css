@@ -1,6 +1,9 @@
+
+
 .WeatherForecastPreview .ForecastTemperature {
     margin-left: 20px;
     font-size: 15px;
+    margin-bottom: 15px;
   }
 
   .WeatherForecastPreview .ForecastHours {

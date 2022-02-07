@@ -1,0 +1,16 @@
+@media (max-width: 500px) {
+    .WeatherInfo .row {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      margin-top: 5px;
+      width: 100%;
+      text-align: center;
+    }
+
+    .WeatherInfo .col-3 {
+        width: 100%;
+      }
+    
+  }

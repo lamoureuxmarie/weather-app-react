@@ -1,3 +1,21 @@
+@media (max-width: 500px) {
+  .Weather button {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5px;
+    width: 100%;
+  }
+
+  .Weather canvas {
+    margin: 0 auto;
+  }
+
+  
+}
+
+
 .Weather {
     padding: 5px 30px 30px 30px;
   }

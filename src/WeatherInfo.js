@@ -4,6 +4,7 @@ import WeatherIcon from "./WeatherIcon";
 import WeatherForecast from "./WeatherForecast";
 import WeatherHeader from "./WeatherHeader";
 import WeatherDetails from "./WeatherDetails";
+import "./WeatherInfo.css";
 
 export default function WeatherInfo(props) {
   const [unit, setUnit] = useState("celsius");
