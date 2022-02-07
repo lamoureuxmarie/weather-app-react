@@ -5,6 +5,12 @@
   border-radius: 4px;
 }
 
+.App .Toggle {
+  margin-top: 5px;
+  background: none;
+  border: none;
+}
+
 li {
   line-height: 1;
   list-style: none;

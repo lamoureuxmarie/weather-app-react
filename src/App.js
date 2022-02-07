@@ -17,14 +17,19 @@ function App() {
   };
 
   return (
+    
     <ThemeProvider theme={theme === "light" ? lightTheme : darkTheme}>
       <GlobalStyles />
-    <StyledApp>
     <div className="App">
-    <button onClick={() => themeToggler()}><Toggle /></button>
+      <section>
+    <StyledApp>
+    
+    <button className="Toggle" onClick={() => themeToggler()}><Toggle /></button>
       <Weather defaultCity="Berlin" />
-    </div>
+   
     </StyledApp>
+    </section>
+    </div>
     </ThemeProvider>
   );
 }

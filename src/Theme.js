@@ -11,7 +11,8 @@ export const darkTheme = {
 };
 
 export const GlobalStyles = createGlobalStyle`
-	body {
+	.App {
 		background-color: ${(props) => props.theme.body};
+    transition: all 0.25s linear;
 	}
 `;
