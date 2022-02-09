@@ -13,12 +13,12 @@ function App() {
   const [theme, setTheme] = useState(() => false);
 
   const themeToggler = () => {
-    theme === "light" ? setTheme("dark") : setTheme("light");
+    theme === "dark" ? setTheme("light") : setTheme("dark");
   };
 
   return (
     
-    <ThemeProvider theme={theme === "light" ? lightTheme : darkTheme}>
+    <ThemeProvider theme={theme === "dark" ? darkTheme : lightTheme}>
       <GlobalStyles />
     <div className="App">
       <section>
