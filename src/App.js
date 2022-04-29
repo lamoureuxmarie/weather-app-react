@@ -23,11 +23,9 @@ function App() {
     <div className="App">
       <section>
     <StyledApp>
-    
     <button className="Toggle" onClick={() => themeToggler()}><Toggle /></button>
-    <h1 className="title">Weather App</h1>
+    <h1 className="title"><em>Weather</em>App</h1>
       <Weather defaultCity="Berlin" />
-   
     </StyledApp>
     </section>
     </div>
