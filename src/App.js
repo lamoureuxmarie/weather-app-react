@@ -32,6 +32,10 @@ function App() {
       <Weather defaultCity="Berlin" />
     </StyledApp>
     </section>
+    <footer className="text-center mt-5 mb-5">
+    Open-source{" "}<a className="git-link" hRef="https://github.com/lamoureuxmarie/react-dictionary" Target="_blank" >code</a> by{" "}
+    <a className="git-link" hRef="https://marielamoureux.com" Target="_blank" >Marie Lamoureux</a>
+    </footer>
     </div>
     </ThemeProvider>
   );

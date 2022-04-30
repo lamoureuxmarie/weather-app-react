@@ -73,21 +73,24 @@
   
   .Weather .City {
     font-size: 24px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     margin-bottom: 10px;
   }
 
   .Weather .Date {
     font-family: 'FreightBig Pro', serif;
-    font-size: 15px;
+    font-size: 18px;
   }
   
   .Weather .WeatherDescription {
-    font-size: 15px;
+    font-size: 18px;
     text-transform: capitalize;
+    font-family: 'FreightBig Pro', serif;
   }
   
   .Weather .temperature {
-    font-size: 60px;
+    font-size: 54px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
   }
   
   .Weather .units {
