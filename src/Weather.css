@@ -97,25 +97,25 @@
   }
 
   .Weather a {
-    color: #d1908f;
+    color: #FF221C;
     text-decoration: none;
   }
 
   .Weather a:hover {
-    color: #c57e7d;
+    color: #da211b;
   }
   
   .Weather canvas {
+    width: 75px;
     padding: 10px;
     text-align: center;
     display: block;
-    filter: drop-shadow(2px 2px 2px #d1908f);
   }
 
   .Loader {
     margin-top: 5px;
     margin-left: 10px;
-    color: #f0c9c4;
+    color: #399b3d;
     font-size: 18px;
     
   }

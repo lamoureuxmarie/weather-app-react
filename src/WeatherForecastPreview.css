@@ -1,4 +1,6 @@
-
+.WeatherForecastPreview {
+  padding-top: 20px;
+}
 
 .WeatherForecastPreview .ForecastTemperature {
     margin-left: 20px;

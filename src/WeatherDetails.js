@@ -1,4 +1,9 @@
 import React from "react";
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faWind } from '@fortawesome/free-solid-svg-icons'
+import { faWater } from '@fortawesome/free-solid-svg-icons'
+
+import "./WeatherDetails.css";
 
 export default function WeatherDetail(props) {
   const unitMapping = {
@@ -11,11 +16,8 @@ export default function WeatherDetail(props) {
  
       <div className="weatherDetail">
         <ul>
-          <li className="mt-4 mb-1">
-            Feels like: {props.feels}{unitMapping[props.unit]}
-          </li>
-          <li className="mb-1">Humidity: {props.humidity}%</li>
-          <li>Wind: {props.wind} km/h</li>
+          <li className="mb-1"><FontAwesomeIcon icon={faWater} />: {props.humidity}%</li>
+          <li><FontAwesomeIcon icon={faWind} />: {props.wind} km/h</li>
         </ul>
       </div>
 

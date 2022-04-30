@@ -4,6 +4,8 @@ import Weather from './Weather';
 import styled, { ThemeProvider } from "styled-components";
 import { lightTheme, darkTheme, GlobalStyles } from "./Theme.js";
 import Toggle from './Toggle';
+import shape1 from './images/shape1.png';
+import shape2 from './images/shape2.png';
 
 const StyledApp = styled.div`
   color: ${(props) => props.theme.fontColor};
@@ -21,6 +23,8 @@ function App() {
     <ThemeProvider theme={theme === "dark" ? darkTheme : lightTheme}>
       <GlobalStyles />
     <div className="App">
+     <img src={shape1} alt="sunShape" className="shape1"/>
+     <img src={shape2} alt="sunShape" className="shape2"/>
       <section>
     <StyledApp>
     <button className="Toggle" onClick={() => themeToggler()}><Toggle /></button>
