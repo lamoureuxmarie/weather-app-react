@@ -13,7 +13,8 @@
   width: 320px;
   z-index: -1;
   position: absolute;
-  bottom: 0;
+  bottom: 50%;
+  top: 50%;
   right: 60%;
 }
 
@@ -39,6 +40,13 @@
 }
 
 li {
-  line-height: 1;
+  line-height: 1.2rem;
   list-style: none;
+}
+
+footer {
+  font-family: monospace;
+  font-size: 14px;
+  position: relative;
+  top: 30px;
 }
