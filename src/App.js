@@ -5,7 +5,6 @@ import styled, { ThemeProvider } from "styled-components";
 import { lightTheme, darkTheme, GlobalStyles } from "./Theme.js";
 import Toggle from './Toggle';
 import shape1 from './images/shape1.png';
-import shape2 from './images/shape2.png';
 
 const StyledApp = styled.div`
   color: ${(props) => props.theme.fontColor};
@@ -24,17 +23,16 @@ function App() {
       <GlobalStyles />
     <div className="App">
      <img src={shape1} alt="sunShape" className="shape1"/>
-     <img src={shape2} alt="sunShape" className="shape2"/>
       <section>
     <StyledApp>
-    <button className="Toggle" onClick={() => themeToggler()}><Toggle /></button>
+    <div className="Toggle" onClick={() => themeToggler()}><Toggle /></div>
     <h1 className="title"><em>Weather</em>App</h1>
       <Weather defaultCity="Berlin" />
     </StyledApp>
     </section>
     <footer className='float-end'>
-    Open-source{" "}<a className="git-link" hRef="https://github.com/lamoureuxmarie/react-dictionary" Target="_blank" >code</a> by{" "}
-    <a className="git-link" hRef="https://marielamoureux.com" Target="_blank" >Marie Lamoureux</a>
+    Open-source{" "}<a className="git-link" href="https://lamoureux-react-weather-app.netlify.app" target="_blank" >code</a> by{" "}
+    <a className="git-link" href="https://marielamoureux.com" target="_blank" >Marie Lamoureux</a>
     </footer>
     </div>
     </ThemeProvider>

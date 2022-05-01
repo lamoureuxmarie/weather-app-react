@@ -9,15 +9,6 @@
   left: 60%;
 }
 
-.App .shape2 {
-  width: 320px;
-  z-index: -1;
-  position: absolute;
-  bottom: 50%;
-  top: 50%;
-  right: 60%;
-}
-
 .App {
   z-index: 2;
   padding: 15px 20px;
