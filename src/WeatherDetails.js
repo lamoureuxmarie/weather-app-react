@@ -6,11 +6,6 @@ import { faWater } from '@fortawesome/free-solid-svg-icons'
 import "./WeatherDetails.css";
 
 export default function WeatherDetail(props) {
-  const unitMapping = {
-    celsius: `°C`,
-    fahrenheit: `°F`,
-  };
-
 
   return (
  
