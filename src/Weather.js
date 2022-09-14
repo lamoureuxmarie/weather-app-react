@@ -53,26 +53,26 @@ export default function Weather(props) {
   if (weatherData.ready) {
     return (
       <div className="Weather">
-        <form className="mb-4" onSubmit={handleSubmit}>
-          <div className="search-area">
-            <div className="type-city-area">
-              <input
-                type="text"
-                placeholder="Change City..."
-                autoComplete="off"
-                className="search-input"
-                onChange={handleCityChange}
-              />
-              <button type="submit" className="search-button">
-                Search
-              </button>
-              <button
-                className="current-location-button"
-                onClick={getCurrentLocation}
-              >
-                Current Location
-              </button>
-            </div>
+        <form className="mb-4 search-area" onSubmit={handleSubmit}>
+          <div class="row">
+            <input
+              type="text"
+              placeholder="Change City..."
+              autoComplete="off"
+              className="search-input col-12"
+              onChange={handleCityChange}
+            />
+          </div>
+          <div class="buttons row d-inline">
+            <button type="submit" className="btn search-button">
+              Search
+            </button>
+            <button
+              className="btn current-location-button"
+              onClick={getCurrentLocation}
+            >
+              Current Location
+            </button>
           </div>
         </form>
         <WeatherInfo data={weatherData} />
@@ -83,5 +83,3 @@ export default function Weather(props) {
     return <div className="Loader">Loading...</div>;
   }
 }
-
-

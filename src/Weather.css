@@ -1,124 +1,128 @@
+.Weather {
+    padding: 5px 30px 30px 30px;
+  }
+
+.Weather .search-area {
+  display: block;
+  text-align: center;
+  margin-top: 15px;
+}
+
+.Weather .search-input {
+  padding: 8px;
+  border: 1px solid #fff;
+  border-radius: 4px;
+  width: 100%;
+}
+
+.Weather .buttons {
+  width: 100%;
+}
+
+.Weather button {
+  display: inline-block !important;
+  border-radius: 4px;
+  margin: 5px;
+}
+
+.Weather .search-button {
+  padding: 8px 20px;
+  font-size: 16px;
+  font-family: 'Montserrat Alternates', sans-serif;
+  background-color: #D1D2F9;
+  color: #181818;
+}
+
+.Weather .search-button:hover {
+  background-color: #c6c7ff;
+}
+
+.Weather .current-location-button {
+  padding: 8px 20px;
+  font-size: 16px;
+  font-family: 'Montserrat Alternates', sans-serif;
+  color: #fff;
+  background-color: #576490;
+}
+
+.Weather .current-location-button:hover {
+  background-color: #4a5a8c;
+  color: #fff;
+}
+
+.Weather li {
+  font-size: 15px;
+}
+
+.Weather .City {
+  font-size: 24px;
+  font-family: 'Open Sans', sans-serif;
+  margin-bottom: 10px;
+}
+
+.Weather .Date {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 18px;
+}
+
+.Weather .WeatherDescription {
+  font-size: 18px;
+  text-transform: capitalize;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.Weather .temperature {
+  font-size: 54px;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.Weather .units {
+  position: relative;
+  top: -30px;
+  font-size: 16px;
+}
+
+.Weather a {
+  color: #6a6a6a;
+  text-decoration: none;
+}
+
+.Weather canvas {
+  width: 75px;
+  padding: 10px;
+  text-align: center;
+  display: block;
+}
+
+.Loader {
+  margin: 10px auto;
+  color: #181818;
+  font-size: 18px;
+}
+
 @media (max-width: 500px) {
   .Weather button {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
     margin-top: 5px;
-    width: 100%;
   }
 
   .Weather canvas {
     margin: 0 auto;
   }
-
-  
 }
 
-
-.Weather {
-    padding: 5px 30px 30px 30px;
-  }
-  
-  .Weather .search-area {
-    display: block;
-    text-align: center;
-    margin-top: 15px;
-  }
-  
-  .Weather .search-input {
-    padding: 8px;
-    border: 1px solid #181818;
-    border-radius: 4px;
-    width: 50%;
-  }
-  
+@media (max-width: 768px) {
   .Weather button {
     margin-left: 5px;
-    margin-right: 5px;
-    border-radius: 4px;
   }
 
-  .Weather .search-button {
-    padding: 5px;
-    font-size: 20px;
-    font-family: 'FreightBig Pro', serif;
-    background-color: #FF221C;
-    color: #fff;
-    border: 1px solid #181818;
+  .Weather .buttons {
+    display: block !important;
+    width: 105%;
   }
+}
 
-  .Weather .search-button:hover {
-    background-color: #da211b;
-    border: 1px solid #181818;
+@media (min-width: 768px) {
+  .Weather button {
+    width: 50%;
   }
-
-  .Weather .current-location-button {
-    padding: 5px;
-    font-size: 20px;
-    font-family: 'FreightBig Pro', serif;
-    background-color: #173A2D;
-    color: #fff;
-    border: 1px solid #181818;
-  }
-
-  .Weather .current-location-button:hover {
-    background-color: #122b22;
-    border: 1px solid #181818;
-  }
-
-  .Weather li {
-    font-size: 15px;
-  }
-  
-  .Weather .City {
-    font-size: 24px;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    margin-bottom: 10px;
-  }
-
-  .Weather .Date {
-    font-family: 'FreightBig Pro', serif;
-    font-size: 18px;
-  }
-  
-  .Weather .WeatherDescription {
-    font-size: 18px;
-    text-transform: capitalize;
-    font-family: 'FreightBig Pro', serif;
-  }
-  
-  .Weather .temperature {
-    font-size: 54px;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-  }
-  
-  .Weather .units {
-    position: relative;
-    top: -30px;
-    font-size: 16px;
-  }
-
-  .Weather a {
-    color: #FF221C;
-    text-decoration: none;
-  }
-
-  .Weather a:hover {
-    color: #da211b;
-  }
-  
-  .Weather canvas {
-    width: 75px;
-    padding: 10px;
-    text-align: center;
-    display: block;
-  }
-
-  .Loader {
-    margin-top: 5px;
-    margin-left: 10px;
-    color: #399b3d;
-    font-size: 18px;
-    
-  }
+}

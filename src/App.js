@@ -18,15 +18,14 @@ function App() {
   };
 
   return (
-    
+
     <ThemeProvider theme={theme === "dark" ? darkTheme : lightTheme}>
       <GlobalStyles />
-    <div className="App">
-     <img src={shape1} alt="sunShape" className="shape1"/>
+    <div className="App shadow-sm">
       <section>
     <StyledApp>
     <div className="Toggle" onClick={() => themeToggler()}><Toggle /></div>
-    <h1 className="title"><em>Weather</em>App</h1>
+    <h1 className="title">Weather App</h1>
       <Weather defaultCity="Berlin" />
     </StyledApp>
     </section>

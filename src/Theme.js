@@ -1,21 +1,21 @@
 import { createGlobalStyle } from "styled-components";
 
 export const lightTheme = {
-  app: "#FFBF01",
+  app: "#f1f1f1",
   fontColor: "#181818",
   body: "#fff",
   canvas: "none",
-  location: "#173A2D",
-  locationhover: "#122b22",
+  location: "#576490",
+  locationhover: "#4a5a8c",
 };
 
 export const darkTheme = {
-  app: "#004ED5",
+  app: "#6a6a6a",
   fontColor: "#fff",
   body: "#181818",
   canvas: "brightness(180)",
-  location: "#73C9EA",
-  locationhover: "#73C9DA",
+  location: "#576490",
+  locationhover: "#4a5a8c",
 };
 
 export const GlobalStyles = createGlobalStyle`
@@ -37,6 +37,6 @@ export const GlobalStyles = createGlobalStyle`
   .Weather .current-location-button:hover {
     background-color: ${(props) => props.theme.locationhover};
   }
-  
+
 
 `;
