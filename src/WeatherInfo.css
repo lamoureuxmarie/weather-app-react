@@ -1,14 +1,21 @@
 
 
 @media (max-width: 600px) {
-    .WeatherInfo .row {
-      width: 80%;
-      margin: 0 auto;
-    }
-    
-
-    .WeatherInfo .col-3 {
-        width: 50%;
-      }
-    
+  .WeatherInfo .row {
+    width: 80%;
+    margin: 0 auto;
   }
+
+  .WeatherInfo .col-3 {
+      width: 50%;
+    }
+
+  }
+
+  @media (max-width: 768px) {
+    .WeatherInfo .units {
+      display: block;
+      margin-top: 25px;
+      margin-left: 10px;
+    }
+}

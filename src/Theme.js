@@ -16,6 +16,7 @@ export const darkTheme = {
   canvas: "brightness(180)",
   location: "#576490",
   locationhover: "#4a5a8c",
+  unit: "#D1D2F9",
 };
 
 export const GlobalStyles = createGlobalStyle`
@@ -38,5 +39,7 @@ export const GlobalStyles = createGlobalStyle`
     background-color: ${(props) => props.theme.locationhover};
   }
 
-
+  .WeatherInfo .units a {
+    color: ${(props) => props.theme.unit};
+  }
 `;
