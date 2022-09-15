@@ -10,7 +10,7 @@ export const lightTheme = {
 };
 
 export const darkTheme = {
-  app: "#6a6a6a",
+  app: "#222222",
   fontColor: "#fff",
   body: "#181818",
   canvas: "brightness(180)",
